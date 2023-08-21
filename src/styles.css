@@ -1,0 +1,83 @@
+* {
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+}
+
+.container {
+  background-color: #00294be1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.copied {
+  width: 100%;
+  background-color: #262a2ed7;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #03cfbee1;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.charLength {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.charLength span {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.checkboxes {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.checkboxes div {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 25px;
+}
+
+.generateBtn {
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.errormsg {
+  color: red;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.passwordStrength {
+  display: flex;
+  justify-content: space-between;
+}
