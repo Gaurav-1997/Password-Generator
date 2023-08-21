@@ -32,18 +32,18 @@ export default function App() {
     setTimeout(() => {
       setCopied(false);
     }, 5000);
-    // navigator.clipboard
-    //   .writeText(password)
-    //   .then(
-    //     () => {
-    //       console.log("clipboard successfully set")
-    //       /* clipboard successfully set */
-    //     },
-    //     (e) => {
-    //       console.log("clipboard write failed", e.message)
-    //       /* clipboard write failed */
-    //     },
-    //   );
+    navigator.clipboard
+      .writeText(password)
+      .then(
+        () => {
+          console.log("clipboard successfully set")
+          /* clipboard successfully set */
+        },
+        (e) => {
+          console.log("clipboard write failed", e.message)
+          /* clipboard write failed */
+        },
+      );
   };
 
   return (
